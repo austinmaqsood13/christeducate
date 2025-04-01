@@ -1,0 +1,394 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 2em;
+  }
+  
+  header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+  }
+  
+  header nav ul li {
+    margin-right: 20px;
+  }
+  
+  header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+  }
+  
+  header nav select {
+    padding: 8px;
+    font-size: 1em;
+    border: none;
+    background-color: #fff;
+    color: #333;
+    cursor: pointer;
+  }
+  
+  #pakistanOptions {
+    background-color: #e1f7e7;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 30px;
+  }
+  
+  #pakistanOptions h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  #pakistanOptions ul {
+    list-style: none;
+    text-align: center;
+  }
+  
+  #pakistanOptions ul li {
+    margin: 10px;
+  }
+  
+  #pakistanOptions ul li button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.1em;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  #pakistanOptions ul li button:hover {
+    background-color: #45a049;
+  }
+  
+  #searchSection {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-top: 40px;
+    border-radius: 8px;
+  }
+  
+  #searchInput {
+    width: 70%;
+    padding: 10px;
+    font-size: 1.2em;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+  }
+  
+ 
+
+  #searchInput:focus {
+    border-color: #4CAF50;
+  }
+  
+  
+  #fileContainer h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  
+  
+  #cyg h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    font-weight: bolder;
+  }
+
+ 
+
+  #fileContainer{
+    background-color: #fff;
+    display: flex;
+    justify-content: space-around;
+    margin: 30px;
+    padding: 10px;
+   /*  margin-top: 20px; Adds space above */
+ }
+
+    #fileContainerr{
+    background-color: #fff;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    padding-top: 10px;
+  }
+
+  
+
+
+  .files {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .file-item {
+    background-color: #f1f1f1;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    width: 200px;
+    text-align: center;
+  }
+  
+  .file-items{
+    background-color: #f1f1f1;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    flex: 1;
+    margin: 20px;
+    width: 200;
+  }
+
+  .file-item a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1.1em;
+  }
+  
+  .file-item a:hover {
+    color: #4CAF50;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+header h1 {
+    font-size: 2em;
+}
+.contact-form, .email-list {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 30px;
+}
+.contact-form h2, .email-list h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.contact-form form, .email-list ul {
+    text-align: center;
+}
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    font-size: 1.1em;
+}
+.contact-form input:focus, .contact-form textarea:focus {
+    border-color: #4CAF50;
+}
+.contact-form button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.1em;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.contact-form button:hover {
+    background-color: #45a049;
+}
+.email-list ul {
+    list-style: none;
+    padding: 0;
+}
+.email-list li {
+    background-color: #f1f1f1;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+
+
+/* Make the body take full height */
+html, body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Make content take all available space */
+main {
+  flex: 1;
+}
+
+/* Footer styling */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  width: 100%;
+}
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 5px;
+}
+.footer-links {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+  display: flex;
+  gap: 15px;
+}
+.footer-links li {
+  display: inline;
+}
+.footer-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+}
+.footer-links a:hover {
+  text-decoration: underline;
+}
+  
+
+
+/*index country container*/
+
+.container-1 {
+  width: 300px;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+
+.learning{
+  text-align: center;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    font-weight: bolder;
+    font-family: Cursive, Monospace, Fantasy;
+    text-shadow: 2px 2px 5px gray;
+}
+
+
+/*Board style*/
+#board ul li button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1.1em;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#board ul li button:hover {
+  background-color: #45a049;
+}
+
+#board {
+  background-color: #e1f7e7;
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 30px;
+}
+
+#board h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#board ul {
+  list-style: none;
+  text-align: center;
+}
+
+#board ul li {
+  margin: 10px;
+}
+
+.logo {
+  position: absolute;
+  top: 10px;
+  left: 10px; /* Use right: 10px; if you want it in the top-right corner */
+  height: 80px; /* Adjust size as needed */
+}
+
+
+/*.parent-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Space between sections */
+
+
+    
