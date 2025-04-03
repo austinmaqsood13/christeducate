@@ -384,6 +384,30 @@ select {
   height: 80px; /* Adjust size as needed */
 }
 
+/*Great New Code*/
+
+/*code for icom1,2*/
+.link-container {
+  display: flex;
+  justify-content: space-between; /* Equal space between links */
+  gap: 10px; /* Adjust space between them */
+}
+
+.link-container .file-item {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.link-container .file-item a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+
 
 /*.parent-container {
     display: flex;
