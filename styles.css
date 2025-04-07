@@ -4,10 +4,26 @@
     box-sizing: border-box;
   }
   
+  html, body {
+    height: 100%;
+}
+
+main {
+    flex-grow: 1;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+}
+
+
   body {
     font-family: 'Arial', sans-serif;
     background-color: #f4f4f9;
     color: #333;
+   /*new by ai*/ font-size: 16px;
+   font-weight: bold;
   }
   
   .container {
@@ -366,6 +382,7 @@ select {
 #board h2 {
   text-align: center;
   margin-bottom: 20px;
+  font-weight: bold;
 }
 
 #board ul {
@@ -378,9 +395,9 @@ select {
 }
 
 .logo {
-  position: absolute;
-  top: 10px;
-  left: 10px; /* Use right: 10px; if you want it in the top-right corner */
+  position: auto absolute;
+  top: auto 10px;
+  left: auto 10px; /* Use right: 10px; if you want it in the top-right corner */
   height: 80px; /* Adjust size as needed */
 }
 
@@ -452,12 +469,33 @@ h2{
   font-weight: bold;
 }
 
+  /*header&footer*/
+
+  header {
+    
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: #4CAF50; /* Optional: Ensure header has a background */
+  }
+
+  main {
+    margin-top: 100px; /* Adjust this value to match the header's height */
+  }
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*.parent-container {
     display: flex;
     flex-direction: column;
     gap: 20px; /* Space between sections */
-
-
-    
